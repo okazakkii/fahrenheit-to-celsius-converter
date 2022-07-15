@@ -1,0 +1,4 @@
+print("grados Fahrenheit a Celcius")
+GradosFahrenheit = int(input("introduce los grados Fahrenheit: "))
+GradosCelcius = (GradosFahrenheit-32)*5/9
+print("{} Grados Fahrenheit son {} Grados celcius".format(GradosFahrenheit, GradosCelcius))
